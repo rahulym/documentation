@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[94],{167:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"bloblang","name":"bloblang","count":2,"permalink":"/blog/tags/bloblang"}')}}]);

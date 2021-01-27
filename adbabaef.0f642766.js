@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[235],{311:function(o){o.exports=JSON.parse('{"to":"/docs/components/metrics/","forComponent":true}')}}]);

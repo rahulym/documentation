@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.yellowmessenger.com/blog</id>
+    <title>Yellow Messenger Blog</title>
+    <updated>2021-01-04T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.yellowmessenger.com/blog"/>
+    <subtitle>Yellow Messenger Blog</subtitle>
+    <icon>https://docs.yellowmessenger.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Look at the V4 Roadmap]]></title>
+        <id>First Look at the V4 Roadmap</id>
+        <link href="https://docs.yellowmessenger.com/blog/2021/01/04/v4-roadmap"/>
+        <updated>2021-01-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Well, it's roadmapish]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Powered Up Workflows]]></title>
+        <id>Powered Up Workflows</id>
+        <link href="https://docs.yellowmessenger.com/blog/2020/08/30/improved-workflows"/>
+        <updated>2020-08-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Available in v3.26.0]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bloblang Beta]]></title>
+        <id>Bloblang Beta</id>
+        <link href="https://docs.yellowmessenger.com/blog/2020/05/10/bloblang-beta"/>
+        <updated>2020-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Available in v3.13]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sneak Peek at Bloblang]]></title>
+        <id>Sneak Peek at Bloblang</id>
+        <link href="https://docs.yellowmessenger.com/blog/2020/04/18/sneak-peek-at-bloblang"/>
+        <updated>2020-04-18T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An experiment in mapping languages]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Write a Benthos Plugin]]></title>
+        <id>Write a Benthos Plugin</id>
+        <link href="https://docs.yellowmessenger.com/blog/2019/08/19/write-a-benthos-plugin"/>
+        <updated>2019-08-19T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I made it difficult for our job security]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Benthos Lab]]></title>
+        <id>Introducing Benthos Lab</id>
+        <link href="https://docs.yellowmessenger.com/blog/2019/06/16/introducing-benthos-lab"/>
+        <updated>2019-06-16T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Where you can build your very own monstrosities]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compiling Benthos to Web Assembly]]></title>
+        <id>Compiling Benthos to Web Assembly</id>
+        <link href="https://docs.yellowmessenger.com/blog/2019/05/27/compiling-benthos-to-wasm"/>
+        <updated>2019-05-27T12:00:01.000Z</updated>
+        <summary type="html"><![CDATA[Don't worry about why]]></summary>
+    </entry>
+</feed>
