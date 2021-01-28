@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[133],{206:function(o){o.exports=JSON.parse('{"to":"/docs/configuration/about","forComponent":false}')}}]);

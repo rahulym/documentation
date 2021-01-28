@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[141],{214:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"benthos-lab","name":"benthos lab","count":2,"permalink":"/blog/tags/benthos-lab"}')}}]);

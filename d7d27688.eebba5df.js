@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[280],{357:function(o){o.exports=JSON.parse('{"to":"/docs/components/buffers/","forComponent":true}')}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[40],{111:function(o){o.exports=JSON.parse('{"to":"/docs/guides/sync_responses","forComponent":false}')}}]);
