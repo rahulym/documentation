@@ -12,16 +12,16 @@
 <link rel="search" type="application/opensearchdescription+xml" title="Yellow Messenger" href="/opensearch.xml">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap"><title data-react-helmet="true">Building your first Bot | Yellow Messenger</title><meta data-react-helmet="true" property="og:image" content="https://docs.yellowmessenger.com/img/og_img.png"><meta data-react-helmet="true" name="twitter:image" content="https://docs.yellowmessenger.com/img/og_img.png"><meta data-react-helmet="true" name="twitter:image:alt" content="Image for Yellow Messenger"><meta data-react-helmet="true" name="docsearch:language" content="en"><meta data-react-helmet="true" name="docsearch:version" content="current"><meta data-react-helmet="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" property="og:title" content="Building your first Bot | Yellow Messenger"><meta data-react-helmet="true" name="description" content="Building a bot which can generate leads for you."><meta data-react-helmet="true" property="og:description" content="Building a bot which can generate leads for you."><meta data-react-helmet="true" property="og:url" content="https://docs.yellowmessenger.com/docs/cookbooks/lead-gen-bot"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.png"><link data-react-helmet="true" rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin="anonymous"><link data-react-helmet="true" rel="canonical" href="https://docs.yellowmessenger.com/docs/cookbooks/lead-gen-bot"><link rel="stylesheet" href="/styles.cbdcea05.css">
-<link rel="preload" href="/styles.6811361d.js" as="script">
-<link rel="preload" href="/runtime~main.9ba29e88.js" as="script">
-<link rel="preload" href="/main.3bbd770b.js" as="script">
-<link rel="preload" href="/1.9ed3d867.js" as="script">
-<link rel="preload" href="/2.53c7263c.js" as="script">
-<link rel="preload" href="/97cc45c3.26692141.js" as="script">
-<link rel="preload" href="/149.59bd0f31.js" as="script">
-<link rel="preload" href="/935f2afb.f871e9f3.js" as="script">
-<link rel="preload" href="/17896441.2ea94703.js" as="script">
-<link rel="preload" href="/8cf887be.af32b829.js" as="script">
+<link rel="preload" href="/styles.1570e816.js" as="script">
+<link rel="preload" href="/runtime~main.2b38f0f4.js" as="script">
+<link rel="preload" href="/main.00628063.js" as="script">
+<link rel="preload" href="/1.77408f83.js" as="script">
+<link rel="preload" href="/2.f3d98a5e.js" as="script">
+<link rel="preload" href="/97cc45c3.96f04689.js" as="script">
+<link rel="preload" href="/150.9b376552.js" as="script">
+<link rel="preload" href="/935f2afb.c0c9e94b.js" as="script">
+<link rel="preload" href="/17896441.b9a7598c.js" as="script">
+<link rel="preload" href="/8cf887be.66b2b2ae.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -32,15 +32,15 @@ In Studio, click on <code>Create Journey</code> button on the bottom left corner
 In the popup, in the <code>Template</code> field select <code>Forms</code>. Also, add rest of the details.
 [SS1]</li></ol><p>In the <code>Select steps for forms journey</code> add all fields as per requirement.
 Click on <code>Create Journey</code> now.</p><ol start="2"><li>Connect it with <code>Welcome Prompt</code>.</li></ol><p>We want users to engage with this journey when they first interact with the bot. Best way to do this including it in the <code>Welcome Promt</code>. Go to <code>Studio</code> and select <code>Welcome Prompt</code>. You should see a <code>Text Message</code> response already there.</p><p>Let&#x27;s add a <a href="https://docs.yellowmessenger.com/docs/documentation/concepts/response-types-message#quick-replies" target="_blank" rel="noopener noreferrer">Quick Reply</a> message by clicking on <code>Click here to add new response</code>. Enter a text message here.</p><p>SS</p><p>Now we need to add 2 buttons, one for to enter the contact information and one to decline it. For that, click on the button below the <code>Quick Reply</code>. Enter button name as <code>Provide Contact Information</code> and click on toggle button beside <code>Advanced Settings</code>. </p><p>SS</p><p>Here go to the <code>Go to journey</code> field and select lead generation journey we&#x27;ve created eariler. Now click on <code>Update</code> button. Follow the same for <code>Go Back</code> button but now <code>Go to journey</code> will be <code>Default</code>.</p><ol start="3"><li>Create DB and add an <code>Action</code> Node</li></ol><p>First go through the <a href="https://docs.yellowmessenger.com/cookbooks/data-layer/" target="_blank" rel="noopener noreferrer">Understanding Database Actions</a> cookbook and follow step 1 and 2 to create and insert data into datbase.</p><p>SS of bot flow and action node</p><ol start="4"><li>Try your bot</li></ol><p>Now you can interact with your bot. If everything works just fine, after completing the <code>LeadGen</code> journey, you should see the user data in the database.</p><p>SS of DB</p></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/cookbooks/getting_started"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Getting Started with &quot;Hello World!&quot;</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/cookbooks/transfer_chat"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Agent augmentation »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_2xL- thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#create-lead-generation-bot" class="table-of-contents__link">Create Lead Generation Bot</a><ul><li><a href="#step-1-create-a-journey" class="table-of-contents__link"><code>Step 1:</code> Create a Journey</a></li><li><a href="#step-2-add-user-expressions" class="table-of-contents__link"><code>Step 2:</code> Add User Expressions</a></li><li><a href="#step-3-adding-of-responses" class="table-of-contents__link"><code>Step 3:</code> Adding of Responses</a></li><li><a href="#step-4-contextual-questionresponse" class="table-of-contents__link"><code>Step 4:</code> Contextual Question/Response</a></li><li><a href="#step-5-quick-reply-input" class="table-of-contents__link"><code>Step 5:</code> Quick Reply Input</a></li><li><a href="#step-6-train-and-try-your-bot" class="table-of-contents__link"><code>Step 6:</code> Train and Try your Bot</a></li></ul></li><li><a href="#create-lead-generation-bot-using-form-journey" class="table-of-contents__link">Create Lead Generation Bot using Form Journey</a></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="footer__bottom text--center"></div></div></footer></div>
-<script src="/styles.6811361d.js"></script>
-<script src="/runtime~main.9ba29e88.js"></script>
-<script src="/main.3bbd770b.js"></script>
-<script src="/1.9ed3d867.js"></script>
-<script src="/2.53c7263c.js"></script>
-<script src="/97cc45c3.26692141.js"></script>
-<script src="/149.59bd0f31.js"></script>
-<script src="/935f2afb.f871e9f3.js"></script>
-<script src="/17896441.2ea94703.js"></script>
-<script src="/8cf887be.af32b829.js"></script>
+<script src="/styles.1570e816.js"></script>
+<script src="/runtime~main.2b38f0f4.js"></script>
+<script src="/main.00628063.js"></script>
+<script src="/1.77408f83.js"></script>
+<script src="/2.f3d98a5e.js"></script>
+<script src="/97cc45c3.96f04689.js"></script>
+<script src="/150.9b376552.js"></script>
+<script src="/935f2afb.c0c9e94b.js"></script>
+<script src="/17896441.b9a7598c.js"></script>
+<script src="/8cf887be.66b2b2ae.js"></script>
 </body>
 </html>
