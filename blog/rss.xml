@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Yellow Messenger Blog</title>
+        <title>yellow.ai Blog</title>
         <link>https://docs.yellow.ai/blog</link>
-        <description>Yellow Messenger Blog</description>
+        <description>yellow.ai Blog</description>
         <lastBuildDate>Sun, 25 Oct 2015 23:29:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
